@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>LoginForm</title>
+<style>
+body{
+background-color:gray;
+background-image: url("LaviTechnologies/WebContent/Nature-greenery-forest.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+margin:0;
+padding:0;
+font-family: Arial;
+}
+.login{
+margin:auto;
+width:250px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+padding: 80px 40px;
+margin-top: 50px;
+background:linear-gradient(top,#3c3c3c 0%,#222222 100%);
+background:-webkit-linear-gradient(top,#3c3c3c 0%,#222222 100%);
+}
+h2{
+margin:0 0 30px 0;
+padding:10px;
+color:#efed40;
+text-aling:center;
+
+}
+input{
+width:100%;
+margin-bottom:30px;
+}
+input[type=text],input[type=password]{
+border:none;
+outline:none;
+border: 2px #fff dotted;
+background: transparent;
+border-radius: 20px;
+box-sizing: border-box;
+color:#red;
+font-size:16px;
+padding:10px;
+text-align:center;
+}
+::placeholder{
+color:rgba(255,255,255,0.5);
+text-align:center;
+}
+
+
+a{
+color:#fff;
+font-size: 14px;
+font-weight: bold;
+text-decoration: none;
+}
+a:hover
+{
+text-decoration: underline;
+}
+header{
+text-align:center;
+color:white;
+font-size: 20px;
+font-weight:bold;
+margin:0 0 30px 0;
+padding:10px;
+}
+
+</style>
+</head>
+<body>
+<header>Lavi Technologies</header>
+<div class="login">
+ <h2>Login Here </h2>
+ <form>
+   <input type="text" name="NAME" placeholder=" NAME">
+   <input type="Password" name="PASSWORD" placeholder="PASSWORD">
+   <input type="button" name="submit" value="Submit" >&nbsp <input type="button" name="Register" value="Register">
+   <a href="#">Forgot password.?</a>
+   </form>
+   </div>
+</body>
+</html>
